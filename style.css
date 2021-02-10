@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/************Navbar************/
+
+.navbar{
+    background-color: rgb(14, 13, 13);
+  
+    color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.navbar .search form{
+    display: flex;
+    padding: 0px 2px;
+}
+.navbar .search input{
+    width: 200%;
+    height: 45px;
+    border-radius: 10px;
+   
+}
+.navbar .search button{
+    border-radius: 10px;
+    height: 45px;
+}
+.flag{
+    margin-left: 0px;
+}
+h6, h5{
+    font-size: 15px;
+        
+    }
+    .cart {
+        margin-right: 10px;
+        padding: 5px;
+    }
+
+
+.nav-bar{
+    background-color: rgb(46, 43, 43);
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul{
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+}
+.nav-bar ul li{
+    color: white;
+    padding: 15px 10px;
+   
+}
+.nav-bar ul li a{
+    color: white;
+}
+.nav-bar .location{
+    margin: 20px;
+    border-style: solid double; 
+}
+.nav-bar .right h5{
+  margin-top: 18px;
+  margin-left: 23px;
+}
+section{
+    height: 100vh;
+}
+section .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 400px;
+}
+.carousel-item {
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue;
+}
+.carousel-caption h3, h4{
+    text-align: right;
+    margin-top: 70px;
+    font-weight: 800;
+}
+
+/************Section Jackets************/
+
+#jackets{
+    margin-top: -150px;
+    height: 50vh;
+}
+
+#jackets img{
+    width: 200px;
+    height: 300px;
+}
+.carousel-cell {
+    width: 15%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .categories{
+      width: 80%;
+     margin-left: 10%;
+     margin-right: auto;
+  }
+  
+  .categories img{
+      width: 100%;
+      height: 250px;
+      padding: 25px;
+      margin-top: 20px;
+     
+  }
+  .categories img:hover{
+      transform: translateY(-5px);
+  }
+  #topbrands{
+      margin-top: -100px;
+  }
+  #topbrands .card{
+      margin: auto;
+  }
+
+  #topbrands .card .card-img-top{
+      width: 100%;
+      height: 250px;
+  }
+  #topbrands .card .card-img-top:hover{
+      transform: translateY(-5px);
+  }
+  #topbrands .card .fas{
+      color: gold;
+      
+  }
+  #topbrands .card .btn{
+      margin-top: 50px;
+  }
+  .bg-primary{
+      width: 100%;
+      height: 40vh;
+  }
+  .bg-primary .img-gift{
+      width: 100%;
+      height: 150px;
+      margin-right: 50px;
+  }
+  .bg-primary h1{
+      margin-left: 250px;
+  }
+  
+  
+.bg-primary p{
+    margin-left: 230px;
+    font-size: 2rem;
+}
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    height: 350px;
+    
+    padding: 30px 0;
+}
+ .offer-img{
+   margin-top: 60px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+.offer p{
+    margin-top: 60px;
+    font-size: 1.25rem;
+    color: #090b0c;
+    font-family: 'Poppins', sans-serif;
+}
+.offer .btn{
+    margin-top: 15px;
+}
+.offer small{
+    color: #555;
+}
+
+#subscription-sec{
+   margin-top: -300px;
+    height: 50vh;
+}
+#subscription-sec h1{
+    margin-top: 15px;
+}
+#subscription-sec .btn{
+    margin: 25px;
+    margin-left: 33%;
+}
+#subscription-sec img{
+    width: 150px;
+    height: 250px;
+}
+
+#subscription-sec .carousel-cell {
+    width: 15%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .footer{
+      background: #000;
+      color: #8a8a8a;
+      font-size: 14px;
+      padding: 60px 0 20px;
+      margin-top: 100px;
+
+  }
+  .footer .f-logo{
+      width:100px;
+      height: 100px;
+      margin-left: 95px;
+      margin-bottom: 20px;
+     
+    
+  }
+  .footer .f-para{
+      margin-left: 55px;
+  }
+  .footer p{
+      color: #8a8a8a;
+
+  }
+  .footer h3{
+      color: #fff;
+      margin-bottom: 20px;
+      
+  }
+  .footer .links, .follow{
+      margin-left: 55px;
+  }
+  .col-6{
+      min-width: 250px;
+      margin-bottom: 20px;
+      text-align: center;
+     
+  }
+   ul{
+      list-style: none;
+      text-align: center;
+  }
+  .app-logo{
+      margin-top: 20px;
+  }
+  .app-logo img{
+      width: 120px;
+      height: 50px;
+  }
+  .footer hr{
+      border: none;
+      background: #b5b5b5;
+      height: 1px;
+      margin: 20px 0;
+  }
+  .copyright{
+      text-align: center;
+  }
+
+  
+  
+  
+  
+  
